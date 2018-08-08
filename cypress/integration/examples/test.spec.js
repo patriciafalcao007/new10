@@ -1,6 +1,5 @@
 describe ("Test for New10", () => {
 it ("Opens GitHub login page", () => { 
-
     cy.visit("https://github.com/login");
     cy.get("h1")
     .should("have.text","Sign in to GitHub");
