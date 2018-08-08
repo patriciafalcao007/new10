@@ -11,8 +11,8 @@ cy.get('#login_field')
 .type('patriciafalcao007@icloud.com')
 .should('have.value', 'patriciafalcao007@icloud.com') 
 .get('#password')
-.type('patriciafalcao007@icloud.com')
+.type('falcaopatricia1')
 .get('.btn-primary').click()
-// .get('.user-nav').should('be.visible')
+.get('.user-nav').should('be.visible')
 });
 }); 
