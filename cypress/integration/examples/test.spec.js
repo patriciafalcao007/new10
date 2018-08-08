@@ -7,10 +7,7 @@ it ("Opens GitHub login page", () => {
 });
 
 it ("Login to Github", () => { 
-cy.get('#login_field')
-.type('patriciafalcao007@icloud.com')
-.should('have.value', 'patriciafalcao007@icloud.com') 
-.get('input[name="login"]').type('patriciafalcao007@icloud.com')
+cy.get('input[name="login"]').type('patriciafalcao007@icloud.com')
 .get('input[name="password"] ').type('falcaopatricia1')
 .get('input[type="submit"]').click()
 // .get('.user-nav').should('be.visible')
