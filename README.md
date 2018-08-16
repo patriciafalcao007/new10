@@ -1,4 +1,6 @@
-Assignment JS
+[![Build Status](https://travis-ci.org/jaffamonkey/cypress-examples.svg?branch=master)](https://travis-ci.org/jaffamonkey/cypress-examples)
+
+### To run
 
 git clone https://github.com/patriciafalcao007/new10.git
 npm install
