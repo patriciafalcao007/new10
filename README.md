@@ -6,7 +6,7 @@
 $ git clone https://github.com/patriciafalcao007/new10.git
 $ cd new10
 $ npm install
-````
+```
 
 This will bring up the Cypress test management console:
 

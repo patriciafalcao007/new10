@@ -1,5 +1,6 @@
 {
     "dependencies": {
-        "cypress": "latest"
+        "cypress": "latest",
+        "cypress-image-snapshot": "^2.1.0"
     }
 }
